@@ -104,8 +104,8 @@ function showScore() {
     const cont = document.querySelector(".app");
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}`;
 
-    let developer = document.createElement("h3");
-    developer.innerHTML = `<i>currently in development by</i> <h3 style='color:red'>Lisakhanya Ngwendu</h3>`;
+    let developer = document.createElement("p");
+    developer.innerHTML = `<i>currently in development by</i> <h3 style='color:red; font-size:1.5rem'>Lisakhanya Ngwendu</h3>`;
     developer.style.textAlign = "center";
     cont.appendChild(developer);
 }
