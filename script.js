@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "Which is largest animal in the world?",
+        question: "Which is the largest animal in the world?",
         answers: [
             { text: "Shark", correct: false },
             { text: "Blue Whale", correct: true },
@@ -10,7 +10,7 @@ const questions = [
     },
 
     {
-        question: "Which is smallest country in the world?",
+        question: "Which is the smallest country in the world?",
         answers: [
             { text: "Vitican City", correct: true },
             { text: "Bhutan", correct: false },
@@ -20,7 +20,7 @@ const questions = [
     },
 
     {
-        question: "Which is largest dessert in the world?",
+        question: "Which is the largest dessert in the world?",
         answers: [
             { text: "Kalahari", correct: false },
             { text: "Gobi", correct: false },
@@ -30,7 +30,7 @@ const questions = [
     },
 
     {
-        question: "Which is smallest continent in the world?",
+        question: "Which is the smallest continent in the world?",
         answers: [
             { text: "Asia", correct: false },
             { text: "Australia", correct: true },
