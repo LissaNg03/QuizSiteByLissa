@@ -38,6 +38,16 @@ const questions = [
             { text: "Africa", correct: false },            
         ]        
     },
+
+    {
+        question: "Do your parents know you are gay",
+        answers: [
+            { text: "No", correct: true },
+            { text: "Yes", correct: true },
+            { text: "Maybe", correct: true },
+            { text: "I don't know", correct: true },            
+        ]        
+    },
 ];
 
 const questionElement = document.getElementById("question");
