@@ -91,12 +91,22 @@ const questions = [
   },
 ];
 
+const landingPage = document.querySelector(".headingCont");
+const quizCont = document.querySelector(".app");
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
 
+quizCont.style.display = "none";
+
 let currentQuestionIndex = 0;
 let score = 0;
+
+function playQuiz() {
+  landingPage.style.display = "none";
+  startQuiz();
+  quizCont.style.display = "block";
+}
 
 function startQuiz() {
   currentQuestionIndex = 0;
@@ -185,5 +195,3 @@ function nxtBtnFunction() {
     startQuiz();
   }
 }
-
-startQuiz();
