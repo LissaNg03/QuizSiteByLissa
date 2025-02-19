@@ -1,95 +1,325 @@
 const questions = [
   {
-    question: "Which is the largest animal in the world?",
+    question: "What is the capital city of France?",
     answers: [
-      { text: "Shark", correct: false },
-      { text: "Blue Whale", correct: true },
-      { text: "Elephant", correct: false },
-      { text: "Giraffe", correct: false },
+      { text: "Paris", correct: true },
+      { text: "London", correct: false },
+      { text: "Rome", correct: false },
+      { text: "Berlin", correct: false },
     ],
   },
 
   {
-    question: "Which is the smallest country in the world?",
+    question: "What is the chemical symbol for water?",
     answers: [
-      { text: "Vitican City", correct: true },
-      { text: "Bhutan", correct: false },
-      { text: "Nepal", correct: false },
-      { text: "Shri Lanka", correct: false },
+      { text: "H2O", correct: true },
+      { text: "CO2", correct: false },
+      { text: "O2", correct: false },
+      { text: "H2", correct: false },
     ],
   },
 
   {
-    question: "Which is the largest dessert in the world?",
+    question: "Which planet is known as the Red Planet?",
     answers: [
-      { text: "Kalahari", correct: false },
-      { text: "Gobi", correct: false },
+      { text: "Earth", correct: false },
+      { text: "Mars", correct: true },
+      { text: "Venus", correct: false },
+      { text: "Jupiter", correct: false },
+    ],
+  },
+
+  {
+    question: "Who wrote 'Romeo and Juliet'?",
+    answers: [
+      { text: "William Shakespeare", correct: true },
+      { text: "Charles Dickens", correct: false },
+      { text: "Mark Twain", correct: false },
+      { text: "Homer", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the largest organ in the human body?",
+    answers: [
+      { text: "Heart", correct: false },
+      { text: "Brain", correct: false },
+      { text: "Liver", correct: false },
+      { text: "Skin", correct: true },
+    ],
+  },
+
+  {
+    question: "What is the capital of Japan?",
+    answers: [
+      { text: "Seoul", correct: false },
+      { text: "Beijing", correct: false },
+      { text: "Tokyo", correct: true },
+      { text: "Hong Kong", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the square root of 64?",
+    answers: [
+      { text: "6", correct: false },
+      { text: "8", correct: true },
+      { text: "10", correct: false },
+      { text: "12", correct: false },
+    ],
+  },
+
+  {
+    question: "Which ocean is the largest in the world?",
+    answers: [
+      { text: "Atlantic Ocean", correct: false },
+      { text: "Indian Ocean", correct: false },
+      { text: "Arctic Ocean", correct: false },
+      { text: "Pacific Ocean", correct: true },
+    ],
+  },
+
+  {
+    question: "How many continents are there in the world?",
+    answers: [
+      { text: "5", correct: false },
+      { text: "6", correct: false },
+      { text: "7", correct: true },
+      { text: "8", correct: false },
+    ],
+  },
+
+  {
+    question: "Which element has the chemical symbol 'O'?",
+    answers: [
+      { text: "Oxygen", correct: true },
+      { text: "Osmium", correct: false },
+      { text: "Ozone", correct: false },
+      { text: "Olivine", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the longest river in the world?",
+    answers: [
+      { text: "Amazon", correct: true },
+      { text: "Nile", correct: false },
+      { text: "Yangtze", correct: false },
+      { text: "Mississippi", correct: false },
+    ],
+  },
+
+  {
+    question: "Which is the tallest mountain in the world?",
+    answers: [
+      { text: "Mount Kilimanjaro", correct: false },
+      { text: "Mount Everest", correct: true },
+      { text: "K2", correct: false },
+      { text: "Mount Fuji", correct: false },
+    ],
+  },
+
+  {
+    question: "Which country is the largest by land area?",
+    answers: [
+      { text: "United States", correct: false },
+      { text: "Canada", correct: false },
+      { text: "Russia", correct: true },
+      { text: "China", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the main ingredient in guacamole?",
+    answers: [
+      { text: "Tomato", correct: false },
+      { text: "Avocado", correct: true },
+      { text: "Onion", correct: false },
+      { text: "Garlic", correct: false },
+    ],
+  },
+
+  {
+    question: "Which language is the most widely spoken in the world?",
+    answers: [
+      { text: "English", correct: false },
+      { text: "Spanish", correct: false },
+      { text: "Mandarin Chinese", correct: true },
+      { text: "Hindi", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the largest desert on Earth?",
+    answers: [
       { text: "Sahara", correct: false },
-      { text: "Antarctica", correct: true },
+      { text: "Arabian", correct: false },
+      { text: "Kalahari", correct: false },
+      { text: "Antarctic", correct: true },
     ],
   },
 
   {
-    question: "Which is the smallest continent in the world?",
+    question: "Who was the first president of the United States?",
     answers: [
-      { text: "Asia", correct: false },
-      { text: "Australia", correct: true },
-      { text: "Arctic", correct: false },
-      { text: "Africa", correct: false },
+      { text: "Abraham Lincoln", correct: false },
+      { text: "George Washington", correct: true },
+      { text: "Thomas Jefferson", correct: false },
+      { text: "John Adams", correct: false },
     ],
   },
 
   {
-    question: "Do your parents know you are gay",
+    question: "Which fruit is known for having its seeds on the outside?",
     answers: [
-      { text: "No", correct: true },
-      { text: "Yes", correct: true },
-      { text: "Maybe", correct: true },
-      { text: "I don't know", correct: true },
+      { text: "Strawberry", correct: true },
+      { text: "Blueberry", correct: false },
+      { text: "Raspberry", correct: false },
+      { text: "Apple", correct: false },
     ],
   },
 
   {
-    question: "Which instrument is used for measuring body temperature",
+    question: "Which animal is the fastest land mammal?",
     answers: [
-      { text: "Hydrometer", correct: false },
-      { text: "Thermometer", correct: true },
-      { text: "Barometer", correct: false },
-      { text: "X-ray", correct: false },
+      { text: "Cheetah", correct: true },
+      { text: "Lion", correct: false },
+      { text: "Leopard", correct: false },
+      { text: "Tiger", correct: false },
     ],
   },
 
   {
-    question: "What is the full form of CPU",
+    question: "Which planet is the closest to the sun?",
     answers: [
-      { text: "Central Processing Unit", correct: true },
-      { text: "Central Processing Union", correct: false },
-      { text: "Centre Processing Unit", correct: false },
-      { text: "Central Process Unit", correct: false },
+      { text: "Venus", correct: false },
+      { text: "Earth", correct: false },
+      { text: "Mercury", correct: true },
+      { text: "Mars", correct: false },
     ],
   },
 
   {
-    question:
-      "If your sister was double your age when you were 5 years old, and now your're 20 yrs old, how old is your sister",
+    question: "Which ocean is the smallest in the world?",
     answers: [
-      { text: "30", correct: false },
-      { text: "40", correct: false },
-      { text: "25", correct: true },
-      { text: "100", correct: false },
+      { text: "Indian Ocean", correct: false },
+      { text: "Arctic Ocean", correct: true },
+      { text: "Atlantic Ocean", correct: false },
+      { text: "Pacific Ocean", correct: false },
     ],
   },
 
   {
-    question: "In what place is earth from the sun",
+    question: "What is the main ingredient in a traditional sushi roll?",
     answers: [
-      { text: "1st", correct: false },
-      { text: "2nd", correct: false },
-      { text: "3rd", correct: true },
-      { text: "4th", correct: false },
+      { text: "Rice", correct: true },
+      { text: "Seaweed", correct: false },
+      { text: "Fish", correct: false },
+      { text: "Vegetables", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the capital of Canada?",
+    answers: [
+      { text: "Toronto", correct: false },
+      { text: "Ottawa", correct: true },
+      { text: "Vancouver", correct: false },
+      { text: "Montreal", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the most common blood type in the world?",
+    answers: [
+      { text: "O-", correct: false },
+      { text: "O+", correct: true },
+      { text: "A+", correct: false },
+      { text: "B-", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the chemical symbol for gold?",
+    answers: [
+      { text: "Ag", correct: false },
+      { text: "Au", correct: true },
+      { text: "Fe", correct: false },
+      { text: "Pb", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the longest bone in the human body?",
+    answers: [
+      { text: "Femur", correct: true },
+      { text: "Tibia", correct: false },
+      { text: "Fibula", correct: false },
+      { text: "Humerus", correct: false },
+    ],
+  },
+
+  {
+    question: "What animal is known for its black and white stripes?",
+    answers: [
+      { text: "Giraffe", correct: false },
+      { text: "Zebra", correct: true },
+      { text: "Tiger", correct: false },
+      { text: "Panda", correct: false },
+    ],
+  },
+
+  {
+    question: "How many states are there in the United States?",
+    answers: [
+      { text: "50", correct: true },
+      { text: "51", correct: false },
+      { text: "48", correct: false },
+      { text: "52", correct: false },
+    ],
+  },
+
+  {
+    question: "Which country is known as the Land of the Rising Sun?",
+    answers: [
+      { text: "China", correct: false },
+      { text: "Japan", correct: true },
+      { text: "South Korea", correct: false },
+      { text: "Thailand", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the primary gas found in Earth's atmosphere?",
+    answers: [
+      { text: "Oxygen", correct: false },
+      { text: "Nitrogen", correct: true },
+      { text: "Carbon Dioxide", correct: false },
+      { text: "Argon", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the largest bird in the world?",
+    answers: [
+      { text: "Ostrich", correct: true },
+      { text: "Eagle", correct: false },
+      { text: "Penguin", correct: false },
+      { text: "Albatross", correct: false },
+    ],
+  },
+
+  {
+    question: "What is the main language spoken in Brazil?",
+    answers: [
+      { text: "Spanish", correct: false },
+      { text: "Portuguese", correct: true },
+      { text: "English", correct: false },
+      { text: "French", correct: false },
     ],
   },
 ];
+
 
 const landingPage = document.querySelector(".headingCont");
 const quizCont = document.querySelector(".app");
